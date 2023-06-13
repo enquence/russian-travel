@@ -1,0 +1,24 @@
+@import url('../vendor/normalize.css');
+
+@import url('../blocks/page/page.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__langs/header__langs.css');
+@import url('../blocks/header/__langs-item/header__langs-item.css');
+@import url('../blocks/header/__lang-link/header__lang-link.css');
+@import url('../blocks/header/__lang-link/header__lang-link_active.css');
+
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__title/lead__title.css');
+@import url('../blocks/lead/__subtitle/lead__subtitle.css');
+@import url('../blocks/lead/__image-wrapper/lead__image-wrapper.css');
+@import url('../blocks/lead/__image/lead__image.css');
+@import url('../blocks/lead/__caption/lead__caption.css');
+
+div, a, section, header, footer, ul, li, nav, h1, h2, h3, p {
+  border: cornflowerblue 1px solid;
+}
+
+
+
