@@ -1,4 +1,5 @@
 @import url('../vendor/normalize.css');
+@import url('../vendor/fonts/inter.css');
 
 @import url('../blocks/page/page.css');
 
@@ -16,9 +17,19 @@
 @import url('../blocks/lead/__image/lead__image.css');
 @import url('../blocks/lead/__caption/lead__caption.css');
 
-div, a, section, header, footer, ul, li, nav, h1, h2, h3, p {
-  border: cornflowerblue 1px solid;
-}
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__list/intro__list.css');
+@import url('../blocks/intro/__list-item/intro__list-item.css');
+@import url('../blocks/intro/__list-item-title/intro__list-item-title.css');
+@import url('../blocks/intro/__text/intro__text.css');
+
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/photo-grid/__item/photo_grid__item.css');
+
+/*div, a, section, header, footer, ul, li, nav, h1, h2, h3, p, body, article {*/
+/*  border: cornflowerblue 1px solid;*/
+/*}*/
 
 
 
