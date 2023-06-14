@@ -51,9 +51,9 @@
 
 @import url('../blocks/hover-animation/hover-animation.css');
 
-div, a, section, header, footer, ul, li, nav, h1, h2, h3, p, body, article, img {
-  border: cornflowerblue 1px solid;
-}
+/*div, a, section, header, footer, ul, li, nav, h1, h2, h3, p, body, article, img {*/
+/*  border: cornflowerblue 1px solid;*/
+/*}*/
 
 
 
