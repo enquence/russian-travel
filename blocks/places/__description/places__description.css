@@ -1,0 +1,9 @@
+.places__description {
+  margin: 0;
+}
+
+@media all and (max-width: 425px) {
+  .places__description {
+    margin: 0 16px 0;
+  }
+}

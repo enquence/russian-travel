@@ -3,3 +3,9 @@
   border-bottom: white 2px solid;
   cursor: default;
 }
+
+@media all and (max-width: 425px) {
+  .header__lang-link_active {
+    border-bottom: white 1px solid;
+  }
+}
