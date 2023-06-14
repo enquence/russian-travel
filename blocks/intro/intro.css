@@ -2,4 +2,26 @@
   min-width: 690px;
   max-width: 984px;
   margin: 0 auto 92px;
+  transition: 0.2s linear;
+}
+
+@media all and (max-width: 1024px) {
+  .intro {
+    max-width: calc(100% - 2*48px);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .intro {
+    min-width: unset;
+    max-width: calc(100% - 2*24px);
+    margin-bottom: 88px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .intro {
+    max-width: calc(100% - 2*16px);
+    margin-bottom: 64px;
+  }
 }

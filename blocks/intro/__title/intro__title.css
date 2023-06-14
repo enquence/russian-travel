@@ -6,3 +6,15 @@
   line-height: 1.1;
   cursor: default;
 }
+
+@media all and (max-width: 768px) {
+  .intro__title {
+    font-size: 7vw;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .intro__title {
+    font-size: 32px;
+  }
+}
