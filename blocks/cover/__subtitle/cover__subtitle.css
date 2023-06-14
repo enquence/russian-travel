@@ -7,3 +7,10 @@
   text-align: center;
   margin: 0 auto;
 }
+
+@media all and (max-width: 425px) {
+  .cover__subtitle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
