@@ -1,8 +1,4 @@
 .cover {
   max-width: calc(100% - 2*48px);
-  /*padding-bottom: 47%;*/
-  /*background-size: contain;*/
-  /* С этой шляпой выше надо разобраться */
-  background-image: url('../../images/cover__background.png');
   margin: 0 auto 92px;
 }
