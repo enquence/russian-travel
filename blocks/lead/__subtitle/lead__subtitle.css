@@ -9,13 +9,14 @@
 
 @media all and (max-width: 768px) {
   .lead__subtitle {
-    max-width: 100%;
     font-size: 3.9vw;
+    max-width: 83%;
   }
 }
 
 @media all and (max-width: 425px) {
   .lead__subtitle {
+    max-width: 288px;
     font-size: 16px;
     margin-bottom: 40px;
   }
