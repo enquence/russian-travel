@@ -8,7 +8,7 @@
 @import url('../blocks/header/__langs/header__langs.css');
 @import url('../blocks/header/__langs-item/header__langs-item.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
-@import url('../blocks/header/__lang-link/header__lang-link_active.css');
+@import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
 
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
@@ -51,9 +51,6 @@
 
 @import url('../blocks/hover-animation/hover-animation.css');
 
-/*div, a, section, header, footer, ul, li, nav, h1, h2, h3, p, body, article, img {*/
+/*div {*/
 /*  border: cornflowerblue 1px solid;*/
 /*}*/
-
-
-
