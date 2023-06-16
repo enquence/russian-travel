@@ -1,7 +1,6 @@
 .header__lang-link_active {
   padding-bottom: 1px;
   border-bottom: white 2px solid;
-  cursor: default;
 }
 
 @media all and (max-width: 425px) {

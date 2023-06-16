@@ -6,7 +6,6 @@
   line-height: 16px;
   text-align: right;
   cursor: default;
-  white-space: nowrap;
 }
 
 @media all and (max-width: 425px) {

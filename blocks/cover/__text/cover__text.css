@@ -1,12 +1,16 @@
 .cover__text {
-  position: absolute;
   display: flex;
   flex-direction: column;
   margin: 0 auto 0;
   justify-content: center;
   align-items: center;
   max-width: 560px;
-  top: 0;
-  bottom: 0;
+  padding: 5%;
   z-index: 2;
+}
+
+@media all and (max-width: 767px) {
+  .cover__text {
+    max-width: 100%;
+  }
 }
