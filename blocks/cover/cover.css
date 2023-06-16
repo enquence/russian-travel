@@ -3,15 +3,9 @@
   margin: 0 auto 92px;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1279px) {
   .cover {
     max-width: 100%;
-    margin-bottom: 88px;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .cover {
     margin-bottom: 88px;
   }
 }

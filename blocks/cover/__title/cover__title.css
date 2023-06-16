@@ -10,8 +10,9 @@
   opacity: 1;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .cover__title {
-    font-size: 9.4vw;
+    font-size: 32px;
+    margin-bottom: 16px;
   }
 }

@@ -3,13 +3,16 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  max-width: 100%;
+  max-width: 1184px;
+  min-height: 740px;
+  margin: 0 auto;
   justify-content: center;
+  box-sizing: border-box;
   text-decoration: none;
   background-size: cover;
+  background-repeat: no-repeat;
   background-image: url('../../../images/cover__background.png');
-  background-position: center;
-  padding-bottom: 62.5%;
+  background-position: 50% 50%;
   z-index: 1;
   color: #fff;
 }
@@ -28,4 +31,25 @@
 
 .cover__overlay:hover::before {
   opacity: 0.8;
+}
+
+@media all and (max-width: 1279px) {
+  .cover__overlay {
+    max-width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .cover__overlay {
+    max-width: 100%;
+    min-height: 480px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .cover__overlay {
+    max-width: 100%;
+    min-height: 200px;
+  }
 }
