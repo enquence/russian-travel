@@ -5,13 +5,14 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 0;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 425px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    max-width: calc(100% - 2*16px);
+    max-width: 100%;
+    margin: 0 12px 0;
   }
 }
